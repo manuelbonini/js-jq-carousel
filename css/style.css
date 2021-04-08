@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block; /* per togliere il bordo fra le immagini  */
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 35px;
+    cursor: pointer; /* per mostrare la manina sopra le frecce */
+}
+
+.images {
+    padding: 4%;
+}
+
+.images img {
+    display: none;
+}
+
+.images img.active {
+    display: block;
+}
